@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Show Me</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#000000">
+</head>
+<body>
+    <div id="app">
+        <div id="viewfinder">
+            <video id="camera-preview" autoplay playsinline muted></video>
+            <div class="corner tl"></div>
+            <div class="corner tr"></div>
+            <div class="corner bl"></div>
+            <div class="corner br"></div>
+        </div>
+
+        <div id="transcript" class="hidden"></div>
+        <div id="status-text">Loading…</div>
+
+        <button id="shutter-btn" aria-label="Capture and describe"></button>
+
+        <div id="results-panel" class="hidden">
+            <div class="grabber"></div>
+            <h2 id="result-appliance"></h2>
+            <p id="result-symptom" class="symptom"></p>
+            <p id="result-summary" class="summary"></p>
+            <ol id="result-steps"></ol>
+            <div id="result-safety" class="safety hidden">
+                <h3>Safety</h3>
+                <ul id="result-safety-list"></ul>
+            </div>
+            <button id="result-close">Done</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
