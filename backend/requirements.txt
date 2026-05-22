@@ -1,0 +1,12 @@
+fastapi
+uvicorn[standard]
+websockets
+google-genai
+python-dotenv
+opentelemetry-api
+opentelemetry-sdk
+opentelemetry-exporter-gcp-trace
+google-cloud-trace
+google-cloud-storage
+google-cloud-firestore
+google-cloud-secret-manager
