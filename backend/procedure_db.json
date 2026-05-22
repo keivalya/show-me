@@ -1,0 +1,70 @@
+[
+  {
+    "id": "nespresso_vertuo__leaking_water",
+    "appliance": { "make": "Nespresso", "model": "Vertuo", "category": "coffee_maker" },
+    "symptom": "water pooling underneath during brew",
+    "verified": true,
+    "steps": [
+      "Unplug the machine and wait 30 seconds",
+      "Flip the machine onto a folded towel",
+      "Remove the two clips on the bottom panel",
+      "Inspect the brewing chamber gasket for cracks",
+      "Replace the gasket if damaged",
+      "Reassemble and run a clean cycle"
+    ],
+    "required_props": ["paper towels", "small flathead screwdriver"],
+    "step_timestamps": [0, 5, 10, 15, 20, 25],
+    "cached_video_url": "https://storage.googleapis.com/show-me-cached-gens/nespresso_vertuo__leaking_water.mp4"
+  },
+  {
+    "id": "keurig_kmini__descaling_light",
+    "appliance": { "make": "Keurig", "model": "K-Mini", "category": "coffee_maker" },
+    "symptom": "descaling light stays on",
+    "verified": true,
+    "steps": [
+      "Fill reservoir with 1:1 vinegar and water",
+      "Place large mug on drip tray",
+      "Lift and lower handle, then press brew button",
+      "Repeat until reservoir is empty",
+      "Run three cycles of fresh water to rinse",
+      "Hold brew and 10oz buttons for 3s to reset light"
+    ],
+    "required_props": ["white vinegar", "large mug"],
+    "step_timestamps": [0, 5, 10, 15, 20, 25],
+    "cached_video_url": "https://storage.googleapis.com/show-me-cached-gens/keurig_kmini__descaling_light.mp4"
+  },
+  {
+    "id": "breville_barista_express__milk_wand_clogged",
+    "appliance": { "make": "Breville", "model": "Barista Express", "category": "coffee_maker" },
+    "symptom": "milk wand not steaming or clogged",
+    "verified": true,
+    "steps": [
+      "Use the cleaning tool tip to clear the wand hole",
+      "Remove the wand tip using the tool's wrench",
+      "Soak tip in hot water with cleaning powder",
+      "Purge the steam wand without the tip",
+      "Reinstall the tip and tighten firmly",
+      "Test steam output into a pitcher"
+    ],
+    "required_props": ["cleaning tool", "hot water", "cleaning powder"],
+    "step_timestamps": [0, 5, 10, 15, 20, 25],
+    "cached_video_url": "https://storage.googleapis.com/show-me-cached-gens/breville_barista_express__milk_wand_clogged.mp4"
+  },
+  {
+    "id": "instant_pot_duo__lid_not_sealing",
+    "appliance": { "make": "Instant Pot", "model": "Duo", "category": "pressure_cooker" },
+    "symptom": "lid won't seal or steam leaking",
+    "verified": true,
+    "steps": [
+      "Check the silicone sealing ring for cracks",
+      "Ensure the ring is seated firmly behind the rack",
+      "Clean the float valve and its silicone cap",
+      "Inspect the steam release handle for debris",
+      "Close lid and ensure it clicks into place",
+      "Perform a 2-minute water test to confirm seal"
+    ],
+    "required_props": ["paper towels"],
+    "step_timestamps": [0, 5, 10, 15, 20, 25],
+    "cached_video_url": "https://storage.googleapis.com/show-me-cached-gens/instant_pot_duo__lid_not_sealing.mp4"
+  }
+]
